@@ -1,0 +1,111 @@
+.dashboard {
+  min-height: 100vh;
+  background: #f5f6fa;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Top bar */
+.topbar {
+  background: #5f259f;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.profile {
+  background: white;
+  color: #5f259f;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Balance card */
+.balance-card {
+  background: linear-gradient(135deg, #5f259f, #7b3fe4);
+  color: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.balance-card p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.balance-card h2 {
+  margin-top: 8px;
+}
+
+/* Actions */
+.actions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.action-card {
+  background: white;
+  border-radius: 14px;
+  padding: 15px 10px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.action-card:hover {
+  transform: translateY(-4px);
+}
+
+.action-icon {
+  font-size: 22px;
+  color: #5f259f;
+  margin-bottom: 6px;
+}
+
+.action-card p {
+  font-size: 13px;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Transactions */
+.transactions {
+  padding: 0 20px 20px;
+}
+
+.transaction-card {
+  background: white;
+  border-radius: 12px;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-card span {
+  font-weight: 500;
+}
+
+.credit {
+  color: green;
+}
+
+.debit {
+  color: red;
+}

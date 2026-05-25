@@ -1,0 +1,41 @@
+# Backend (Maven)
+wallet-backend/target/
+wallet-backend/.class
+wallet-backend/*.jar
+wallet-backend/*.war
+wallet-backend/.DS_Store
+wallet-backend/.idea/
+wallet-backend/*.iml
+wallet-backend/.vscode/
+wallet-backend/.env
+wallet-backend/logs/
+
+# Frontend (Node.js)
+wallet-frontend/node_modules/
+wallet-frontend/build/
+wallet-frontend/.env
+wallet-frontend/.env.local
+wallet-frontend/.env.development.local
+wallet-frontend/.env.test.local
+wallet-frontend/.env.production.local
+wallet-frontend/npm-debug.log*
+wallet-frontend/yarn-debug.log*
+wallet-frontend/yarn-error.log*
+wallet-frontend/.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.env
+.env.local
+
+# Build outputs
+*.log
+dist/
+build/

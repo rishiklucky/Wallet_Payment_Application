@@ -1,0 +1,61 @@
+.dashboard {
+  min-height: 100vh;
+  background: rgb(36,36,139);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Top bar */
+.topbar {
+  background: #FF6F02;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Cards */
+.card-box {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Wallet */
+.wallet-balance {
+  font-size: 26px;
+  font-weight: bold;
+  color: #FF6F02;
+  margin-bottom: 15px;
+}
+
+.add-money {
+  display: flex;
+  gap: 10px;
+}
+
+.add-money input {
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.btn-phonepe {
+  background: #FF6F02;
+  color: white;
+  border-radius: 12px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border: none;
+}
+
+.btn-phonepe:hover {
+  background: rgb(36,36,139);
+}
+
+/* Send money */
+.send-form input {
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
